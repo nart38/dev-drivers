@@ -1,4 +1,4 @@
-SRCS=skeleton.c
-KMOD=skeleton
+SRCS=hello.c
+KMOD=hello
 
 .include <bsd.kmod.mk>

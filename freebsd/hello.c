@@ -1,8 +1,8 @@
+#include <sys/systm.h>
 #include <sys/conf.h>
 #include <sys/kernel.h>
 #include <sys/module.h>
 #include <sys/param.h>
-#include <sys/systm.h>
 #include <sys/types.h>
 
 static int hello_load(module_t mod, int cmd, void *arg) {
